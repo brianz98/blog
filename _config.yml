@@ -16,3 +16,6 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+
+meta:
+  electronic_structure: test

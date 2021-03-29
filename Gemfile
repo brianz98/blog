@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll-rtd-theme", "~> 2.0.5"
+gem "jekyll-rtd-theme"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 gem "github-pages", group: :jekyll_plugins
