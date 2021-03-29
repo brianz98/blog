@@ -1,8 +1,12 @@
 title: Brian Zhao
 lang: en
-description: Write an awesome description for your new site here
+description: Ramblings on computational chemistry
 
-remote_theme: rundocs/jekyll-rtd-theme
+theme: jekyll-rtd-theme
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 readme_index:
   with_frontmatter: true
